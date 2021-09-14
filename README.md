@@ -1,4 +1,4 @@
-# IMERSÃo-DEV_
+# IMERSÃO-DEV_
 ## Javascript by Alura
 ---
 ### Lesson 1 - Average Grade Calculator
