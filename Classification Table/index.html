@@ -1,0 +1,51 @@
+<html>
+  <link rel="stylesheet" href="style.css">
+  <head>
+    <title>Aula 4</title>
+  </head>
+  <body>
+    <div class="container">
+        <h1 class="page-title">
+          Classification Table
+        </h1>
+        <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-aluraflix.svg" class="page-logo" alt="">
+        <table style="width:100%">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Wins</th>
+                <th>Drawns</th>
+                <th>Loses</th>
+                <th>Points</th>
+                <th colspan="3">Actions</th>
+              </tr>
+            </thead>
+            <tbody id="tabelaJogadores">
+              <tr>
+                <td>You</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button onClick="adicionarVitoria()">Win</button></td>
+                <td><button onClick="adicionarEmpate()">Drawn</button></td>
+                <td><button onClick="adicionarDerrota()">Lost</button></td>
+              </tr>
+              <tr>
+                <td>Computer</td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td></td>
+                <td><button onClick="adicionarVitoria()">Win</button></td>
+                <td><button onClick="adicionarEmpate()">Drawn</button></td>
+                <td><button onClick="adicionarDerrota()">Lost</button></td>
+              </tr>
+            </tbody>
+          </table>
+      <a href="https://github.com/B1NT0N" target="_blank">
+        <img src="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg" alt="" class="alura-logo">
+    </a>
+    <script src="script.js"></script>
+  </body>
+</html>
