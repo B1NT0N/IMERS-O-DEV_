@@ -7,7 +7,9 @@ body {
     background-position: center bottom;
     background-repeat: no-repeat;
   }
-  
+  h3 {
+    color:white;
+  }
   .container {
     text-align: center;
     padding: 20px;
@@ -56,4 +58,5 @@ body {
     color: #ffffff;
     font-size: 30px;
   }
+
   
