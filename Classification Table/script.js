@@ -48,7 +48,7 @@ function toHTML(players){
         tag +=    '<td><button onClick="addWin('+i+')">Win</button></td>'
         tag +=    '<td><button onClick="addDraw('+i+')">Draw</button></td>'
         tag +=    '<td><button onClick="addLoss('+i+')">Lost</button></td>'
-        tag +="</tr>"
+        tag += "</tr>"
     }
     var tableTag = document.getElementById("tabelaJogadores");
     tableTag.innerHTML = tag;
