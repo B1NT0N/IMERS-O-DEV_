@@ -1,17 +1,17 @@
 <html>
-<link rel="stylesheet" href="style.css">
-<head>
-    <title>
-        Imersão Dev - Aula 08
-    </title>
-</head>
-
-<body>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+  <head>
+    <title> Aula 02</title>
+  </head>
+  <body>
     <div class="container">
         <img src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-super-trunfo.png" class="page-logo"
             alt="">
         <h1 class="page-title">Super Trunfo</h1>
+
         <button onclick="sortearCarta()" id="btnSortear">Sortear carta</button>
+
         <form id="form">
             <h2>Escolha o seu atributo</h2>
             <div class="wrapper">
@@ -28,10 +28,13 @@
                             style=" width: inherit; height: inherit; position: absolute;"></div>
                 </div>
             </div>
-            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
-            <div id="resultado"></div>
+            <div class="opcoes" id="opcoes"></div>
+            <button type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <h3 class="result" id="resultado"></h3> 
         </form>
     </div>
-</body>
-
+    <a href="https://github.com/B1NT0N" target="_blank">
+        <img src="https://www.logo.wine/a/logo/GitHub/GitHub-Icon-White-Dark-Background-Logo.wine.svg" alt="" class="alura-logo">
+    </a>
+  </body>
 </html>

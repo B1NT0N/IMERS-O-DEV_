@@ -75,4 +75,3 @@ function jogar(){
     document.getElementById("btnSortear").disabled = false;
     document.getElementById("btnJogar").disabled = true;
 }
-
