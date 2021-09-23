@@ -13,25 +13,26 @@ body{
     color: #1C1C1C;
     padding: 64px;
     max-width: 35rem;
-    align: center;
 
 }
 .profile{
     display:flex;
     align-items: center;
 }
+
 .profile-photo{
-    border-radius: 460px;
+    border-radius: 20px;
     max-height:160px;
-    box-shadow: 0px 0px 21px 2px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
 }
 .title{
+
     margin-left:16px;
 
 }
 .title h1{
     color:#39d353;
-    margin:0px;
+    margin-bottom:0.2rem;
     font-weight:700;
     font-size: 1.8rem;
 
@@ -45,18 +46,22 @@ body{
 }
 .title p{
     color:#c9d1d9;
-    margin-top:2;
-    margin-bottom: 0.3rem;
+    margin-top:2px;
+    margin-bottom: 0.5rem;
     font-weight:400;
     font-size: 0.8rem;
     
+}
+.title a{
+    font-size:20px;
+    color:#F7F7F7;
 }
 .projects{
     margin-top: 1rem;
     padding: 1rem;
     background: rgba(22,27,34, 0.6);
     box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
+    border-radius: 8px;
     display:flex;
     flex-direction:column;
     align-items:left;
@@ -87,4 +92,7 @@ body{
 .projects a:hover{
     color:#39d353;
 
+}
+.title a:hover{
+    color:#39d353;
 }
