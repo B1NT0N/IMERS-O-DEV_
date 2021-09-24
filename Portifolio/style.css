@@ -56,6 +56,22 @@ body{
     font-size:20px;
     color:#F7F7F7;
 }
+.theme button{
+    color:#c9d1d9;
+    align-self: flex-end;
+    padding: 8px,16px;
+    font-weight:400;
+    font-size: 0.8rem;
+    border-color: transparent;
+    /* border-color: #F7F7F7; */
+    border-radius: 8px;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.1);
+    background-color: rgba(22,27,34, 0.6);
+}
+.theme button:hover{
+    color:#F7F7F7;
+    border-color: #39d353;
+}
 .projects{
     margin-top: 1rem;
     padding: 1rem;
@@ -77,7 +93,7 @@ body{
     color:#c9d1d9;
     margin-top:7px;
     margin-bottom:7px;
-    font-size: 0.8rem
+    font-size: 0.8rem;
 }
 .projects li{
     color:#39d353;
@@ -95,4 +111,39 @@ body{
 }
 .title a:hover{
     color:#39d353;
+}
+.light{
+    background: linear-gradient(30deg, #002333 10%, #39d353 200%);
+}
+.light .container{
+    background:#c9d1d9;
+}
+.light .title h3{
+    font-weight:400;
+    color:#0d1117;
+}
+.light .title p{
+    color:#12171d;
+}
+.light .title a{
+    color:#12171d;
+}
+.light .title a:hover{
+    color:#39d353;
+}
+.light .projects{
+    background: #F7F7F7;
+}
+.light .projects p {
+    color:#12171d;
+}
+.light .projects a {
+    color:#12171d;
+}
+.light .projects a:hover {
+    color:#39d353;
+}
+.light .theme button{
+    background: #F7F7F7;
+    color:#12171d;
 }
